@@ -1,0 +1,22 @@
+@font-face {
+    font-family:  'Creepster';
+    src: url("../fonts/Creepster-Regular.eot") format('embedded-opentype') /* EOT file for IE */
+}
+@font-face {
+    font-family:  'Creepster';
+    src: url("../fonts/Creepster-Regular.ttf") format('truetype') /* TTF file for CSS3 browsers */
+}
+
+body {
+    text-align: center;
+    background-color: black;
+    margin: 0;
+    padding: 0;
+}
+
+canvas {
+    background: -ms-linear-gradient(top, #39087c 15%,#8150b2 100%);
+    background: linear-gradient(to bottom, #39087c 15%,#8150b2 100%);
+    margin-top: 20px;
+    border: 2px solid gray;
+}
